@@ -1,0 +1,17 @@
+/***************************/
+
+Object Calendar and Methodes
+
+3- methods:
+
+set :
+
+set value in field.
+
+add
+
+add value in calendar.
+
+roll
+
+

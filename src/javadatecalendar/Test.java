@@ -61,9 +61,14 @@ public class Test {
         DateStr=sfd.format(new Date());
         System.out.println("pattren MMMM/y:"+DateStr);
         
-        String formatsValue[]={"dd.MM.yy","yyyy.MM.dd G 'at' hh:mm:ss Z","EEE, MMM d, ' ' yy",
-                               "h:mm a","H:mm","H:mm:ss:SS","K:mm a, Z",
-                               "yyyy.MMMMM.dd GGG hh:mm aaa"
+        String formatsValue[]={"dd.MM.yy",
+                                "yyyy.MM.dd G 'at' hh:mm:ss Z",
+                                "EEE, MMM d, ' ' yy",
+                                "h:mm a",
+                                "H:mm",
+                                "H:mm:ss:SS",
+                                "K:mm a, Z",
+                                "yyyy.MMMMM.dd GGG hh:mm aaa"
                                 };
         SimpleDateFormat arrfrm[]=new SimpleDateFormat[formatsValue.length];
         int i=0;
