@@ -12,6 +12,12 @@ add
 
 add value in calendar.
 
+
+
 roll
 
+
+void roll(int field,boolean up); true
+
+passe un seul pas chaque roll
 
