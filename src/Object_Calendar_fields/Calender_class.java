@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Object_Calendar;
+package Object_Calendar_fields;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -42,16 +42,17 @@ public class Calender_class {
         calendarInst.add(Calendar.YEAR, 20);// add date for the date 
         
         DateFromCal=calendarInst.getTime();
+        
+        
         System.out.println(DF.LongD.format(DateFromCal));
         calendarInst.clear();
-        for (int i = 0; i <= 30; i++) {
+        for (int i = 0; i <= 40; i++) {
             calendarInst.add(Calendar.DATE, 1);
-            
             System.out.println("Date is "+DF.LongD.format(calendarInst.getTime()));
-            
         }
         calendarInst=Calendar.getInstance();
        int ThisMonth =calendarInst.get(Calendar.MONTH);
+       
        
         while (ThisMonth==calendarInst.get(Calendar.MONTH)) {            
             

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Object_Calendar;
+package Object_Calendar_fields;
 
 import java.util.Calendar;
 import java.util.Date;
